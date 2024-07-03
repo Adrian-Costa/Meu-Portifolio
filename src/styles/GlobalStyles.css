@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+
+:root{
+    --color-primary: #FF3636;
+    --color-secundary: #242424;
+}
+
+body{
+    background-color: white;
+    font-family: "Cabin Condensed", Helvetica, Arial, sans-serif;
+    color: var(--color-secundary);
+}
+
+h1{
+    font-size: 8.5em;
+    font-weight: 300;
+}
+
+h2{
+    font-size: 4em;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 2.2em;
+    font-weight: 700;
+}
+
+h4{
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+h5{
+    font-size: 6vw;
+    font-weight: 400;
+}
+
+span{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-secundary);
+    font-family: "Cabin Condensed";
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+hr{
+    height: 3px;
+    border-color: red; 
+    background-color: red;
+    border: none;
+}
+
+p{
+    font-size: 1.3em;
+    line-height: 30px;
+    font-weight: 500;
+    text-indent: 50px;
+}
+
+.mark{
+    font-family: "Rouge Script";
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.mark:hover{
+    color: red;
+    text-decoration: none;
+}
+
+button{
+    font-size: 1.2em;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+button:hover{
+    color: red;
+}

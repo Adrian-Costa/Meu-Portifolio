@@ -1,0 +1,93 @@
+
+.footer{
+    margin: 50px;
+    .call{
+        display: flex;
+        align-items: center;
+        margin: 100px 0px;
+
+        .title4{
+            text-align: center;
+            width: 20%;
+        }
+
+        .hr1{
+            width: 15%;
+        }
+        .hr2{
+            width: 65%;
+        }
+    }
+
+    .button{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 3px solid var(--color-secundary);
+        border-radius: 10px;
+        padding: 20px;
+
+        button{
+            border: none;
+            border-right: 3px solid var(--color-secundary);
+            padding-right: 50px;
+            background-color: white;
+        }
+        
+        button:hover{
+            cursor: pointer;
+        }
+    }
+
+    .bottomNav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 100px 0px 70px 0px;
+
+        a{
+            margin: 20px;
+        }
+        .bottomLine{
+            width: 70%;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 601px) {
+    .footer{
+        .title5{
+            font-size: 5vw;
+        }
+        .call{
+            .title4{
+                width: 25%;
+            }
+            .hr1{
+                width: 15%;
+            }
+            .hr2{
+                width: 60%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer{
+        .title5{
+            font-size: 4.3vw;
+        }
+        .call{
+            .title4{
+                width: 30%;
+            }
+            .hr1{
+                width: 15%;
+            }
+            .hr2{
+                width: 55%;
+            }
+        }
+    }
+}

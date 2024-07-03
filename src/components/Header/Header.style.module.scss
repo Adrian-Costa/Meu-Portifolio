@@ -1,0 +1,146 @@
+
+header{
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 50px;
+
+        .links{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            padding: 10px 0px;
+            margin: 10px 0px;
+        }
+
+        .line{
+            padding: 10px;
+            width: 40%;
+        }
+    }
+
+    .presentation{
+        margin: 0px 50px 20px 50px;
+
+        .title1{
+            text-align: center;
+        }
+        .phraseContainer{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+
+            .phrase{
+                display: block;
+                justify-content: left;
+                margin: 20px 20px 20px 0px;
+
+                .phrase1{
+                    color: rgba(255, 0, 0, 0.551);
+                    font-size: 1.2em;
+                    font-weight: 100;
+                    line-height: 30px;
+                    text-indent: 0px;
+                }
+                
+                .phrase2{
+                    color: rgb(255, 0, 0);
+                    font-size: 1.2em;
+                    font-weight: 100;
+                    line-height: 30px;
+                    text-indent: 0px;
+                }
+                .phrase3{
+                    color: rgb(205, 0, 0);
+                    font-size: 1.2em;
+                    font-weight: 100;
+                    line-height: 30px;
+                    text-indent: 0px;
+                }
+            }
+            .lines{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                width: 60%;
+
+                hr{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .buttons{
+        display: flex;
+        justify-content: space-around;
+
+        .button{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            border: none;
+            background-color: white;
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+    .title1{
+        font-size: 7.1em;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 601px) {
+    header{
+        .presentation{
+            margin: 0px;
+
+            .title1{
+                font-size: 6.5em;
+            }
+        }
+        .phraseContainer{
+            margin: 0px 50px;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header{
+        .presentation{
+            margin: 0px;
+
+            .title1{
+                font-size: 5.2em;
+            }
+        }
+        .phraseContainer{
+            display: flex;
+            flex-direction: column;
+            margin: 0px 50px;
+            .phrase{
+                display: flex;
+                margin: 20px 20px 20px 0px;
+
+                .phrase1{
+                    text-align: center;
+                }
+                .phrase2{
+                    text-align: center;
+                }
+                .phrase3{
+                    text-align: center;
+                }
+
+            }
+            .lines{
+                align-self: center;
+                margin: 20px 0px 50px 0px;
+            }
+        }
+    }
+}
+
